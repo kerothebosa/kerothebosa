@@ -34,40 +34,38 @@ I build and operate **mission-critical, high-traffic backend systems** serving *
 ---
 
 ## Tech Stack
-
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
 
-### Backend
+### 🧱 Backend
 - C#, .NET (Framework / Core / 5 / 6 / 7)
 - ASP.NET Core Web API, REST
 - gRPC, DI, NuGet modular packages
 - Caching: in-memory / Redis
 
-### Data
+    </td>
+    <td width="33%" valign="top">
+
+### 🗄️ Data
 - SQL Server, PostgreSQL, MySQL
 - MongoDB, Redis
-- Indexing, query optimization, profiling
+- Indexing & query optimization
+- Profiling & execution plans
 
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
 
-### Platform / DevOps
+### 🚢 Platform & Reliability
 - Docker, Kubernetes
 - CI/CD: GitHub Actions, Jenkins
 - Terraform, Linux, Bash
-- Secrets & environment configuration
-
-### Messaging & Observability
-- Kafka (primary), RabbitMQ
-- Structured logging, metrics
-- Monitoring, alerting, dashboards
-- Incident readiness / RCA
-
+- Kafka (primary), RabbitMQ  
+- Observability: logs, metrics, alerts, dashboards
     </td>
   </tr>
 </table>
+
 
 ---
 
